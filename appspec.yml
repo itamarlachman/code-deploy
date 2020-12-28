@@ -3,3 +3,8 @@ os: windows
 files:
   - source: \index.html
     destination: c:\
+hooks:
+  BeforeInstall:
+  AfterInstall:
+  ApplicationStart:
+  ApplicationStop:
